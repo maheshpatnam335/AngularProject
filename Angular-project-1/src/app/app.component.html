@@ -1,3 +1,10 @@
-<h1>Header</h1>
+<div>
+  <a routerLink="/about-us">About US</a>
+  <a routerLink="/how-it-works">How it is works</a>
+  <a routerLink="/auth/login" [queryParams]="{name:'maheah', password:'sds'}">Login</a>
+  <a routerLink="/auth/signup">Sign Up</a>
+  <a routerLink="/public/all-books">All Books</a>
+  <a routerLink="/public/book-details/{{12}}/author/{{12}}">Book details App</a>
+
+</div>
 <router-outlet></router-outlet>
-<h1>Footer</h1>
